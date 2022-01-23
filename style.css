@@ -1,51 +1,51 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-body{
-
-height:100vh;
-text-align: center;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-font-size:20px;
-color:#fcfeff;
-
+body {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #fcfeff;
 }
 
-#timediv{
-    font-size: 50px;
+#timediv {
+  font-size: 50px;
+}
+#focusdiv {
+  margin-top: 20px;
+}
+#focustop {
+  font-size: 30px;
 }
 
-
-.morning{
-    background-image: url("morning.png");
-    background-repeat: no-repeat;
-    background-position: start;
-    background-size: cover;
+.morning {
+  background-image: url("morning.png");
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: cover;
 }
-.afternoon{
-    background-image: url("afternoon.png");
-    background-repeat: no-repeat;
-    background-position: start;
-    background-size: cover;
-
+.afternoon {
+  background-image: url("afternoon.png");
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: cover;
 }
-.night{
-    background-image: url("night.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
+.night {
+  background-image: url("night.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.midnight{
-    background-image: url("midnight.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
+.midnight {
+  background-image: url("midnight.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

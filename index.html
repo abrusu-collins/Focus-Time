@@ -7,18 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@100&display=swap" rel="stylesheet">
     <title>FOCUS</title>
 </head>
 
 <body>
+    <div id="quote"></div>
     <div id="timediv"></div>
 
-    <div id="greetings">Good <span id="timeofday">afternoon</span> <span id="name" contenteditable="true"> [name]</span>
+    <div id="greetings">Good <span id="timeofday">afternoon</span> <span id="name" contenteditable="true"
+            spellcheck="false"> [name]</span>
     </div>
 
     <div id="focusdiv">
         <p id="focustop">What is your main focus for Today?</p>
-        <p contenteditable="true" id="focus">[Enter focus]</p>
+        <p contenteditable="true" id="focus" spellcheck="false">[Enter focus]</p>
     </div>
     <script src="app.js"></script>
 </body>

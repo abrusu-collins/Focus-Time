@@ -15,6 +15,39 @@ body {
   color: #fcfeff;
 }
 
+/*morning display*/
+.morningdisplay{
+  position:absolute;
+  left:25px;
+  top:25px;
+
+  width:25%;
+}
+#quote{
+  font-family: 'Inconsolata', monospace;
+}
+/*afternoon and evening display*/
+
+.afternooneveningdisplay{
+  position:absolute;
+  right:25px;
+  top:25px;
+
+  width:25%;
+}
+
+/*midnight*/
+.midnightdisplay{
+  position:absolute;
+  left:25px;
+  bottom:25px;
+
+  width:25%;
+}
+
+footer{
+  margin-top: 10px;
+}
 #timediv {
   font-size: 50px;
 }
